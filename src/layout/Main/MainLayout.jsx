@@ -1,15 +1,15 @@
-// import { Outlet } from "react-router-dom";
-// import Navbar from "../../pages/sharedPages/Navbar/Navbar";
-// import Footer from "../../pages/sharedPages/Footer/Footer";
+import { Outlet } from "react-router-dom";
+import Navbar from "../../pages/sharedPages/Navbar/Navbar";
+import Footer from "../../pages/sharedPages/Footer/Footer";
 
-// const Main = () => {
-//     return (
-//         <div>
-//             <Navbar></Navbar>
-//             <Outlet></Outlet>
-//             <Footer></Footer>
-//         </div>
-//     );
-// };
+const MainLayout = () => {
+    return (
+        <div>
+            <Navbar></Navbar>
+            <Outlet></Outlet>
+            <Footer></Footer>
+        </div>
+    );
+};
 
-// export default Main;
+export default MainLayout;
