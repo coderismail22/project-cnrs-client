@@ -3,9 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        blinker:['Blinker','sans-serif']
-      }
+      fontFamily: {
+        blinker: ["Blinker", "sans-serif"],
+        lato: ["lato", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -27,26 +27,31 @@ const HeroSection = () => {
         </div>
       </div>
       {/* Hero Text */}
-      <div>
-        <h1 className="p-10 font-blinker font-extrabold text-3xl text-center uppercase">
+      <div className="p-10 text-center">
+        <h1 className=" font-blinker font-extrabold text-3xl  uppercase">
           we work to find solutions to most pressing environmental, ecological,
           livelihood and development challenges.
         </h1>
-        <p>
-          CNRS conducts research as well as implements projects on, but not
-          limited to: Natural resource management, Climate change adaptation and
-          Mitigation, Disaster risk reduction and Mitigation, Early warning,
-          Adaptive agriculture, Waste management, Livelihoods enhancement, Local
-          governance, Institutional development, Nutrition, Gender, Process
-          monitoring and evaluation and policy & advocacy all over Bangladesh.
-          All interventions of CNRS are strategically managed under seven key
-          program areas. These programs encompass a broad spectrum of
-          activities, each tailored to address specific challenges and
-          opportunities in their respective fields, aligning with CNRS’s
-          overarching goals of sustainable development and societal betterment.
-          In doing so, CNRS brings governments, NGOs, the UN, international
-          organizations together to develop policies and share best practices.
-        </p>
+        <div className="font-lato mt-5">
+          <p className="mb-1">
+            CNRS conducts research as well as implements projects on, but not
+            limited to: Natural resource management, Climate change adaptation
+            and Mitigation, Disaster risk reduction and Mitigation, Early
+            warning, Adaptive agriculture, Waste management, Livelihoods
+            enhancement, Local governance, Institutional development, Nutrition,
+            Gender, Process monitoring and evaluation and policy & advocacy all
+            over Bangladesh. All interventions of CNRS are strategically managed
+            under seven key program areas. These programs encompass a broad
+            spectrum of activities, each tailored to address specific challenges
+            and opportunities in their respective fields, aligning with CNRS’s
+            overarching goals of sustainable development and societal
+            betterment. <br />
+          </p>
+          <p>
+            In doing so, CNRS brings governments, NGOs, the UN, international
+            organizations together to develop policies and share best practices.
+          </p>
+        </div>
       </div>
     </>
   );
