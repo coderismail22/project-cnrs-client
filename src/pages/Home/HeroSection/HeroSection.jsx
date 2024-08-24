@@ -28,7 +28,7 @@ const HeroSection = () => {
       </div>
       {/* Hero Text */}
       <div className="p-10 text-center">
-        <h1 className=" font-blinker font-extrabold text-3xl  uppercase">
+        <h1 className=" font-blinker font-extrabold tracking-wide  text-4xl  uppercase">
           we work to find solutions to most pressing environmental, ecological,
           livelihood and development challenges.
         </h1>
