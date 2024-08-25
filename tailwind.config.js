@@ -8,6 +8,7 @@ export default {
         lato: ["lato", "sans-serif"],
         palanquin: ["Palanquin Dark", "sans-serif"],
         oswald: ["Oswald", "sans-serif"],
+        redhat: ["Red Hat Text", "sans-serif"],
       },
     },
   },
