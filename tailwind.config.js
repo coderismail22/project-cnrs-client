@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         blinker: ["Blinker", "sans-serif"],
         lato: ["lato", "sans-serif"],
+        palanquin: ["Palanquin Dark", "sans-serif"],
       },
     },
   },

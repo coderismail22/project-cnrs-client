@@ -10,7 +10,7 @@ const HeroSection = () => {
           className="object-cover object-center w-full h-auto"
         />
         <div className="absolute top-10 right-4">
-          <p className="text-right text-[#f7f6f4] text-3xl md:4xl lg:text-5xl font-extrabold uppercase  p-4 rounded-lg">
+          <p className="font-palanquin text-right text-[#f7f6f4] text-3xl md:4xl lg:text-5xl font-extrabold uppercase  p-4 rounded-lg">
             Striving <br /> for building <br /> social-ecological <br />
             resilience
           </p>
