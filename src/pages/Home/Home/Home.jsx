@@ -1,11 +1,11 @@
 // import HeroSection from "../HeroSection/HeroSection";
-import HomeCard from "../../../components/HomeCard/HomeCard";
+// import HomeCards from "../HomeCards/HomeCards";
 
 const Home = () => {
   return (
     <div>
       {/* <HeroSection /> */}
-      <HomeCard />
+      {/* <HomeCards /> */}
     </div>
   );
 };
