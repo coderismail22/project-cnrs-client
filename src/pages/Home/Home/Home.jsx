@@ -6,8 +6,8 @@ import Documentaries from "../Documentaries/Documentaries";
 const Home = () => {
   return (
     <div>
-      {/* <HeroSection /> */}
-      {/* <HomeCards /> */}
+      {/* <HeroSection />
+      <HomeCards /> */}
       <Documentaries />
     </div>
   );

@@ -1,4 +1,5 @@
 import { FaChevronDown } from "react-icons/fa";
+import YouTubeCard from "../../../components/YouTubeCard/YouTubeCard";
 
 const Documentaries = () => {
   return (
@@ -11,9 +12,13 @@ const Documentaries = () => {
         <p className="font-lato text-[#707A80] text">
           Visit our socials to watch documentaries of our interventions
         </p>
-        <FaChevronDown  className=" size-16 text-[#FFCD05] my-5" />
+        <FaChevronDown className=" size-16 text-[#FFCD05] my-5" />
       </div>
-      {/* Down Arrow */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
+        <YouTubeCard />
+        <YouTubeCard />
+        <YouTubeCard />
+      </div>
     </div>
   );
 };
