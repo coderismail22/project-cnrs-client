@@ -1,10 +1,10 @@
 import CardWithBigImage from "../../../components/CardWithBigImage/CardWithBigImage";
-import HeroSection from "../HeroSection/HeroSection";
+// import HeroSection from "../HeroSection/HeroSection";
 
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <CardWithBigImage />
     </div>
   );

@@ -7,6 +7,7 @@ export default {
         blinker: ["Blinker", "sans-serif"],
         lato: ["lato", "sans-serif"],
         palanquin: ["Palanquin Dark", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
       },
     },
   },
