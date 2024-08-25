@@ -9,6 +9,7 @@ export default {
         palanquin: ["Palanquin Dark", "sans-serif"],
         oswald: ["Oswald", "sans-serif"],
         redhat: ["Red Hat Text", "sans-serif"],
+        yeseva: ["Yeseva One", "sans-serif"],
       },
     },
   },
