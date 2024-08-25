@@ -1,4 +1,4 @@
-const CardWithBigImage = () => {
+const HomeCard = () => {
   return (
     <div className="grid gap-5 md:grid-cols-2 justify-center items-center  md:flex-row md:col-span-2 p-5">
       {/* Image */}
@@ -31,4 +31,4 @@ const CardWithBigImage = () => {
   );
 };
 
-export default CardWithBigImage;
+export default HomeCard;
