@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     // removed sticky from navbar
-    <main className="w-full h-[100px]  top-0 shadow-lg z-50"> 
+    <main className="w-full h-[100px]  top-0 shadow-lg z-50">
       <nav className="flex justify-around items-center px-8 py-3">
         <section className="flex items-center gap-4">
           {/* MENU */}
