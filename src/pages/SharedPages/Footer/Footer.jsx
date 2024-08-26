@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div className="p-10 md:p-15 lg:p-20">
+    <div className="p-10 md:p-15 lg:p-20 bg-[#111518] ">
       <div className="lg:flex gap-10 justify-between">
         <div className="max-w-[1100px] mb-10">
-          <h1 className="font-bold text-xl">
+          <h1 className="font-bold text-xl text-[#EDEFF2] mb-[36px]">
             Center for Natural Resource Studies (CNRS)
           </h1>
           <div>
@@ -14,7 +14,7 @@ const Footer = () => {
                 className="float-left w-16 h-16 mr-4"
               />
             </p>
-            <p>
+            <p className="text-[#687279]">
               CNRS is one of the most recognized pro-environmental national NGOs
               in Bangladesh. It was conceptualized in 1993, from Bangladesh
               Flood Action Plan (FAP16) Environmental Study; and the formal
@@ -29,7 +29,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="min-w-56">
+        <div className="min-w-56 text-[#687279]">
           <h1 className="font-bold">Our Office Address:</h1>
           <p>
             House 13, Level 4-6, <br />
@@ -39,7 +39,10 @@ const Footer = () => {
           <p className="mt-10">Tel: 880-2-222274127-8</p>
         </div>
       </div>
-      <h1 className="flex-1 mt-5">Copyright © 2024 CNRS | Developed by CNRS</h1>
+      <hr className="mt-5"/>
+      <h1 className="flex-1 mt-5 text-[#687279] " >
+        Copyright © 2024 CNRS | Developed by CNRS
+      </h1>
     </div>
   );
 };

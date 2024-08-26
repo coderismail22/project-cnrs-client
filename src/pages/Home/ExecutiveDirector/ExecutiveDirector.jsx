@@ -1,15 +1,15 @@
 const ExecutiveDirector = () => {
   return (
-    <div className="p-5 md:p-8 ">
-      <h1 className="font-redhat font-extrabold text-[50px] leading-tight text-center mb-5 md:mb-8">
-        Words from our Climate expert and Executive Director
+    <div className="p-5 md:p-24 ">
+      <h1 className="font-redhat font-extrabold text-[50px] leading-tight text-center my-10 md:my-16">
+        Words from our Climate expert and  <br /> Executive Director
       </h1>
       <div className="grid gap-5  grid-cols-1 md:grid-cols-2 md:justify-center">
         <div>
           <img className="w-full md:w-[80%]" src="/src/assets/executive-director.png" alt="ED-Sir" />
         </div>
         <div>
-          <h1 className="font-yeseva text-[30px]">
+          <h1 className="font-yeseva text-[30px] md:text-[25px]">
             &quot;I am wholeheartedly grateful to all the change-makers of CNRS
             working at different levels&quot;
           </h1>
