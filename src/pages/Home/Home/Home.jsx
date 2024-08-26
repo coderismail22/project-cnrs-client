@@ -1,11 +1,10 @@
-// import HeroSection from "../HeroSection/HeroSection";
-// import HomeCards from "../HomeCards/HomeCards";
-// import Documentaries from "../Documentaries/Documentaries";
-// import Counter from "../../../components/Counter/Counter";
-// import Articles from "../Articles/Articles";
-// import BottomCards from "../BottomCards/BottomCards";
-// import ExecutiveDirector from "../ExecutiveDirector/ExecutiveDirector";
-
+import HeroSection from "../HeroSection/HeroSection";
+import HomeCards from "../HomeCards/HomeCards";
+import Documentaries from "../Documentaries/Documentaries";
+import Counter from "../../../components/Counter/Counter";
+import Articles from "../Articles/Articles";
+import BottomCards from "../BottomCards/BottomCards";
+import ExecutiveDirector from "../ExecutiveDirector/ExecutiveDirector";
 
 const Home = () => {
   return (
