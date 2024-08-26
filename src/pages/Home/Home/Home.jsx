@@ -3,8 +3,9 @@
 // import Documentaries from "../Documentaries/Documentaries";
 // import Counter from "../../../components/Counter/Counter";
 // import Articles from "../Articles/Articles";
+// import BottomCards from "../BottomCards/BottomCards";
 
-import BottomCards from "../BottomCards/BottomCards";
+import ExecutiveDirector from "../ExecutiveDirector/ExecutiveDirector";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       {/* <Documentaries /> */}
       {/* <Counter /> */}
       {/* <Articles /> */}
-      <BottomCards />
+      {/* <BottomCards /> */}
+      <ExecutiveDirector />
     </div>
   );
 };

@@ -10,6 +10,7 @@ export default {
         oswald: ["Oswald", "sans-serif"],
         redhat: ["Red Hat Text", "sans-serif"],
         yeseva: ["Yeseva One", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
