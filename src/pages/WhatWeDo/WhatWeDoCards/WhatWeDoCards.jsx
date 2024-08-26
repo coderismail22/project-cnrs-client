@@ -13,13 +13,14 @@ import child from "../../../assets/whatwedo-child.jpg";
 import institutional from "../../../assets/whatwedo-institution.jpg";
 const WhatWeDoCards = () => {
   return (
-    <div>
+    <div className="bg-white mx-5 md:mx-10 rounded-lg ">
       <div className="flex flex-col justify-center items-center">
         {/* Card Type 1 [3*3]*/}
-        <div className="flex flex-col md:flex-row md:justify-center md:items-center gap-5 p-5">
+        <div className="flex flex-col md:flex-row md:justify-center md:items-center ">
           <WhatWeDoCard1
             title={"Environment and Climate Change"}
             imageUrl={birds}
+            borderRight={"r"}
             itemLink={
               "https://cnrs.org.bd/natural-resource-management-nrm-environment-and-water/"
             }
@@ -27,6 +28,7 @@ const WhatWeDoCards = () => {
           <WhatWeDoCard1
             title={"Food Security and Livelihood (FSL) "}
             imageUrl={sugarcaneman}
+            borderRight={"r"}
             itemLink={"https://cnrs.org.bd/livelihood-and-job-creation/"}
           />
           <WhatWeDoCard1
@@ -35,12 +37,13 @@ const WhatWeDoCards = () => {
             itemLink={"https://cnrs.org.bd/food-agriculture-and-nutrition/"}
           />
         </div>
-
         {/* Card Type 2 [4*4] */}
-        <div className="flex flex-col md:flex-row   justify-center items-center gap-5 md:gap-2 p-5">
+        <div className="flex flex-col md:flex-row   justify-center items-center p-10 sm:p-0 ">
           <WhatWeDoCard2
             title={"Environment and Climate Change"}
             imageUrl={disaster}
+            borderTop={"t"}
+            borderRight={"r"}
             itemLink={
               "https://cnrs.org.bd/natural-resource-management-nrm-environment-and-water/"
             }
@@ -48,17 +51,22 @@ const WhatWeDoCards = () => {
           <WhatWeDoCard2
             title={"Food Security and Livelihood (FSL) "}
             imageUrl={health}
+            borderTop={"t"}
+            borderRight={"r"}
             itemLink={"https://cnrs.org.bd/livelihood-and-job-creation/"}
           />
 
           <WhatWeDoCard2
             title={"Community Development and Governance"}
             imageUrl={child}
+            borderTop={"t"}
+            borderRight={"r"}
             itemLink={"https://cnrs.org.bd/food-agriculture-and-nutrition/"}
           />
           <WhatWeDoCard2
             title={"Community Development and Governance"}
             imageUrl={institutional}
+            borderTop={"t"}
             itemLink={"https://cnrs.org.bd/food-agriculture-and-nutrition/"}
           />
         </div>

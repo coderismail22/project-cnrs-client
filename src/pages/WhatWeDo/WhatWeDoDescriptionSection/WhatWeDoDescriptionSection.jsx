@@ -3,7 +3,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 const WhatWeDoDescriptionSection = () => {
   return (
     <div className="bg-[#113418] py-10 px-6 text-white">
-      <h1 className="font-blinker font-extrabold text-center text-[36px] leading-10 uppercase mb-6">
+      <h1 className="font-blinker font-extrabold text-center text-[36px] leading-10  sm:px-16 uppercase mb-6">
         we work to find solutions to most pressing environmental, ecological,
         livelihood and development challenges
       </h1>

@@ -3,9 +3,9 @@ import WhatWeDoDescriptionSection from "../WhatWeDoDescriptionSection/WhatWeDoDe
 
 const WhatWeDo = () => {
   return (
-    <div>
+    <div className="bg-[#113418]">
       <WhatWeDoDescriptionSection />
-      {/* <WhatWeDoCards />; */}
+      <WhatWeDoCards />;
     </div>
   );
 };

@@ -1,12 +1,20 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const WhatWeDoCard2 = ({ imageUrl, title, itemLink }) => {
+const WhatWeDoCard2 = ({
+  imageUrl,
+  title,
+  itemLink,
+  borderTop,
+  borderRight,
+}) => {
   return (
-    <div className="w-[400px] sm:w-[500px] md:w-[180px] lg:w-[240px]  h-[550px] md:h-[400px]  p-5 md:p-2 rounded-lg  border flex flex-col items-center justify-center">
+    <div
+      className={`border-${borderTop} border-${borderRight} w-[400px] sm:w-[500px] md:w-[160px] lg:w-[240px]  h-[550px] md:h-[400px]  p-5 md:p-2  flex flex-col items-center justify-center`}
+    >
       <div>
         <img
-          className="w-[600px] md:w-[200px] lg:w-[300px]  h-[400px] md:h-[150px] lg:h-[200px] object-cover object-center"
+          className="border-t w-[600px] md:w-[200px] lg:w-[300px]  h-[400px] md:h-[150px] lg:h-[200px] object-cover object-center"
           src={imageUrl}
           alt="Image"
         />
