@@ -2,8 +2,9 @@
 // import HomeCards from "../HomeCards/HomeCards";
 // import Documentaries from "../Documentaries/Documentaries";
 // import Counter from "../../../components/Counter/Counter";
-import Articles from "../Articles/Articles";
+// import Articles from "../Articles/Articles";
 
+import BottomCards from "../BottomCards/BottomCards";
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       {/* <HomeCards /> */}
       {/* <Documentaries /> */}
       {/* <Counter /> */}
-      <Articles />
+      {/* <Articles /> */}
+      <BottomCards />
     </div>
   );
 };
