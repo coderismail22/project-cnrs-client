@@ -18,7 +18,8 @@ const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <main className="w-full h-[100px] sticky top-0 shadow-lg ">
+    // removed sticky from navbar
+    <main className="w-full h-[100px]  top-0 shadow-lg z-50"> 
       <nav className="flex justify-around items-center px-8 py-3">
         <section className="flex items-center gap-4">
           {/* MENU */}
