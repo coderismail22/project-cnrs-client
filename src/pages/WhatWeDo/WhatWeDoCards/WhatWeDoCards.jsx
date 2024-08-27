@@ -13,7 +13,7 @@ import child from "../../../assets/whatwedo-child.jpg";
 import institutional from "../../../assets/whatwedo-institution.jpg";
 const WhatWeDoCards = () => {
   return (
-    <div className="bg-white mx-5 md:mx-10 rounded-lg ">
+    <div className="bg-white mx-2 md:mx-10 rounded-lg ">
       <div className="flex flex-col justify-center items-center">
         {/* Card Type 1 [3*3]*/}
         <div className="flex flex-col md:flex-row md:justify-center md:items-center ">
