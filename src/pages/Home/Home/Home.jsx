@@ -9,13 +9,13 @@ import ExecutiveDirector from "../ExecutiveDirector/ExecutiveDirector";
 const Home = () => {
   return (
     <div>
-      {/* <HeroSection />
+      <HeroSection />
       <HomeCards />
       <Documentaries />
       <Counter />
       <Articles />
       <BottomCards />
-      <ExecutiveDirector /> */}
+      <ExecutiveDirector />
     </div>
   );
 };

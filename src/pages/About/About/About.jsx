@@ -6,10 +6,10 @@ import KeyPartners from "../KeyPartners/KeyPartners";
 const About = () => {
   return (
     <div>
-      {/* <Profile />
+      <Profile />
       <CounterForAboutPage />
       <Membership />
-      <KeyPartners /> */}
+      <KeyPartners />
     </div>
   );
 };

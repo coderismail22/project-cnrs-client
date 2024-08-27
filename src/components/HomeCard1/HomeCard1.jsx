@@ -6,7 +6,7 @@ const HomeCard1 = () => {
       <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 gap-5 p-5">
         <div className="order-1 md:order-2 md:col-span-1">
           <img
-            src="/src/assets/overlay-bg.jpg"
+            src="/assets/overlay-bg.jpg"
             alt="birds"
             className="w-[1000px] h-[500px] object-cover object-center rounded-md"
           />

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <p>
               <img
-                src="/src/assets/cnrs.png"
+                src="/assets/cnrs.png"
                 alt="CNRS Logo"
                 className="float-left w-16 h-16 mr-4"
               />

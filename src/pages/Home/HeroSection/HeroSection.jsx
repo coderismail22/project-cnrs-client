@@ -3,9 +3,9 @@ const HeroSection = () => {
     // TODO: Fix Text Positioning
     <>
       {/* Hero Image */}
-      <div className="relative">
+      <div className="relative z-0">
         <img
-          src="/src/assets/hero-section-img.jpg"
+          src="/assets/hero-section-img.jpg"
           alt="CNRS Logo"
           className="object-cover object-center w-full h-auto"
         />

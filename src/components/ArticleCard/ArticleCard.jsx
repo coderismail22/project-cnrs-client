@@ -10,7 +10,7 @@ const ArticleCard = ({ card }) => {
         {/* Image */}
         <div>
           <img
-            src="/src/assets/article_1.jpg"
+            src="/assets/article_1.jpg"
             alt="articleImg"
             className="my-5 w-full"
           />

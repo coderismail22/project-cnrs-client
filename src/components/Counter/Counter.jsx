@@ -18,7 +18,7 @@ const Counter = () => {
       {/* Image Container */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/overlay-bg.jpg"
+          src="/assets/overlay-bg.jpg"
           alt="image"
           className="w-full h-full object-cover object-center"
         />

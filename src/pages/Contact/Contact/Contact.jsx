@@ -1,12 +1,13 @@
 import ContactCards from "../ContactCards/ContactCards";
+import Form from "../Form/Form";
 import Map from "../Map/Map";
 
 const Contact = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="font-yeseva font-bold text-3xl my-5">Find Us Here</h1>
       <ContactCards />
       <Map />
+      <Form />
     </div>
   );
 };

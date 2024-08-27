@@ -6,7 +6,7 @@ const ExecutiveDirector = () => {
       </h1>
       <div className="grid gap-5  grid-cols-1 md:grid-cols-2 md:justify-center">
         <div>
-          <img className="w-full md:w-[80%]" src="/src/assets/executive-director.png" alt="ED-Sir" />
+          <img className="w-full md:w-[80%]" src="/assets/executive-director.png" alt="ED-Sir" />
         </div>
         <div>
           <h1 className="font-yeseva text-[30px] md:text-[25px]">

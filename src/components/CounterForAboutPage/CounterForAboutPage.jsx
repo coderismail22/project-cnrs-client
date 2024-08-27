@@ -25,7 +25,7 @@ const CounterForAboutPage = () => {
                 <div className="flex flex-col rounded-lg bg-zinc-400 bg-opacity-20 px-4 py-8 text-center drop-shadow-lg">
                   {/* Icon */}
                   <div className="flex flex-col items-center justify-center mb-2">
-                    <img src="/src/assets/about-icon-1.svg" alt="icon" />
+                    <img src="/assets/about-icon-1.svg" alt="icon" />
                   </div>
                   <dt className="order-last text-2xl font-medium ">Staff</dt>
 
@@ -52,7 +52,7 @@ const CounterForAboutPage = () => {
                   <div className="flex flex-col items-center justify-center mb-2">
                     <img
                       className="w-[60px] h-[51px]"
-                      src="/src/assets/about-icon-2.png"
+                      src="/assets/about-icon-2.png"
                       alt="icon"
                     />
                   </div>
@@ -80,7 +80,7 @@ const CounterForAboutPage = () => {
                 <div className="flex flex-col rounded-lg bg-zinc-400 bg-opacity-20 px-4 py-8 text-center drop-shadow-lg">
                   {/* Icon */}
                   <div className="flex flex-col items-center justify-center mb-2">
-                    <img src="/src/assets/about-icon-3.svg" alt="icon" />
+                    <img src="/assets/about-icon-3.svg" alt="icon" />
                   </div>
                   <dt className="order-last text-2xl font-medium ">
                     Projects implemented till date
@@ -103,7 +103,7 @@ const CounterForAboutPage = () => {
                 <div className="flex flex-col rounded-lg bg-zinc-400 bg-opacity-20 px-4 py-8 text-center drop-shadow-lg">
                   {/* Icon */}
                   <div className="flex flex-col items-center justify-center mb-2">
-                    <img src="/src/assets/about-icon-4.svg" alt="icon" />
+                    <img src="/assets/about-icon-4.svg" alt="icon" />
                   </div>
                   <dt className="order-last text-2xl font-medium ">
                     Present working districts of Bangladesh

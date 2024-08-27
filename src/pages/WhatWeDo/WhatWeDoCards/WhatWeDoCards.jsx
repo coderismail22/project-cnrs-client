@@ -2,15 +2,15 @@ import WhatWeDoCard1 from "../../../components/WhatWeDoCard1/WhatWeDoCard1";
 import WhatWeDoCard2 from "../../../components/WhatWeDoCard2/WhatWeDoCard2";
 
 // card-type-1 imports
-import birds from "../../../assets/birds.jpg";
-import sugarcaneman from "../../../assets/sugarcane-man.jpg";
-import grandma from "../../../assets/vegetable-grandma.jpg";
+import birds from "../../../../public/assets/birds.jpg";
+import sugarcaneman from "../../../../public/assets/sugarcane-man.jpg";
+import grandma from "../../../../public/assets/vegetable-grandma.jpg";
 
 // card-type-2 imports
-import disaster from "../../../assets/whatwedo-disaster.jpg";
-import health from "../../../assets/whatwedo-health.png";
-import child from "../../../assets/whatwedo-child.jpg";
-import institutional from "../../../assets/whatwedo-institution.jpg";
+import disaster from "../../../../public/assets/whatwedo-disaster.jpg";
+import health from "../../../../public/assets/whatwedo-health.png";
+import child from "../../../../public/assets/whatwedo-child.jpg";
+import institutional from "../../../../public/assets/whatwedo-institution.jpg";
 const WhatWeDoCards = () => {
   return (
     <div className="bg-white mx-2 md:mx-10 rounded-lg ">

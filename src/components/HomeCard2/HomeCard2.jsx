@@ -4,7 +4,7 @@ const HomeCard2 = () => {
       <div className="grid grid-flow-row md:grid-flow-col md:grid-cols-2 gap-5 p-5">
         <div className="order-1 md:order-2 md:col-span-1 p-5">
           <img
-            src="/src/assets/infographics.jpg"
+            src="/assets/infographics.jpg"
             alt="birds"
             className="w-[800px] rounded-md"
           />

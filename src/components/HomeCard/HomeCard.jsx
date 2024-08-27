@@ -1,6 +1,5 @@
 const HomeCard = ({ card }) => {
   const { image, title, description, url } = card;
-
   return (
     <div className="grid gap-5 md:grid-cols-2 justify-center items-center  md:flex-row md:col-span-2 p-5">
       {/* Image */}

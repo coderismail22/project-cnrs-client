@@ -180,7 +180,7 @@ const PDF = () => {
       <div className="py-10">
         <div className="flex justify-center items-center h-screen">
           <iframe
-            src="/public/cnrs-branding-and-marking-guideline-2024.pdf"
+            src="/assets/cnrs-branding-and-marking-guideline-2024.pdf"
             className="w-full h-full md:w-3/4 md:h-3/4 border-2 border-gray-300"
             title="PDF Viewer"
           ></iframe>

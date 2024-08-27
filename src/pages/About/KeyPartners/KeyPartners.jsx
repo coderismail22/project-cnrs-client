@@ -6,7 +6,7 @@ const KeyPartners = () => {
           {/* Image */}
           <div className="flex flex-col items-center">
             <img
-              src="/src/assets/about-cnrs-partners.jpg"
+              src="/assets/about-cnrs-partners.jpg"
               alt="partners"
               className="md:max-w-[400px] rounded-md"
             />

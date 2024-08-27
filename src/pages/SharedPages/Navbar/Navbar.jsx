@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     // removed sticky from navbar
     <main className="w-full h-[100px]  top-0 shadow-lg z-50">
-      <nav className="flex justify-around items-center px-8 py-3">
+      <nav className="flex justify-around items-center ">
         <section className="flex items-center gap-4">
           {/* MENU */}
           <h1
@@ -30,7 +30,7 @@ const Navbar = () => {
             Open
           </h1>
           {/* LOGO */}
-          <img src="/src/assets/cnrs.png" width="80px" />
+          <img src="/assets/cnrs.png" width="80px" />
         </section>
 
         <section className="flex gap-5 ">
@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.path}
-              className="hidden md:block text-2xl font-bold "
+              className="p-5 hover:bg-[#456C2F] hover:text-white hidden md:block  h-20"
             >
               {item.title}
             </Link>
