@@ -13,7 +13,7 @@ const ProjectCard = ({ cardData }) => {
       <div className="h-[200px]">
         {imgError ? (
           <div className="w-full h-full flex flex-col items-center justify-center bg-gray-200 border border-dashed border-gray-400 rounded-lg shadow-md">
-              <FaImage className="size-20 mt-10" />
+            <FaImage className="size-20 mt-10" />
             <p className="text-2xl text-gray-500 text-center font-medium p-10 ">
               Image Not Available
             </p>
