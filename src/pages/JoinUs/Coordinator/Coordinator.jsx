@@ -2,13 +2,7 @@ const Coordinator = () => {
   return (
     <div className="p-5 md:p-24">
       <div className="grid gap-5  grid-cols-1 md:grid-cols-2 md:justify-center">
-        <div>
-          <img
-            className="w-full md:w-[80%] rounded-lg"
-            src="/assets/prial-da.jpg"
-            alt="ED-Sir"
-          />
-        </div>
+
         <div>
           <p className="font-lato text-[15px] xl:text-[20px] text-[#687279]">
             After the Rohingya refugee influx different factors led to unrest
@@ -44,6 +38,13 @@ const Coordinator = () => {
           <p className="font-montserrat font-extrabold text-[15px] mt-5 md:mt-10">
             Prial Mutsuddy, Upazila Coordinator, CNRS
           </p>
+        </div>
+        <div>
+          <img
+            className="w-full md:w-[80%] rounded-lg"
+            src="/assets/prial-da.jpg"
+            alt="ED-Sir"
+          />
         </div>
       </div>
     </div>
