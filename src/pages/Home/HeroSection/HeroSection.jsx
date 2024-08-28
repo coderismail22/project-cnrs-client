@@ -21,7 +21,7 @@ const HeroSection = () => {
           This is a description text that gives more context about the hero
           section.
         </p>
-        <Link className="font-montserrat   text-xl bg-[#c7b362]  w-full h-[50px] p-2 mt-5">
+        <Link className="font-montserrat  text-center text-xl bg-[#c7b362]  w-full h-[50px] p-2 mt-5">
           Learn More
         </Link>
       </div>

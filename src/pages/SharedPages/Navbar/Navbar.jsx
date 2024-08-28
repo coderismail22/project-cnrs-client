@@ -33,10 +33,10 @@ const Navbar = () => {
     <main className="h-[100px] shadow-lg flex flex-col justify-between p-5 z-[9999]">
       <nav className="flex justify-between items-center px-5">
         <div className="flex items-center justify-between w-[1000px] lg:w-[100px]">
-          <section className="w-[50px]">
+          <Link to="/" className="w-[50px]">
             {/* LOGO */}
             <img src="/assets/cnrs.png" width="80px" />
-          </section>
+          </Link>
 
           <section className="w-[50px]">
             {/* MENU for Mobile */}
@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.path}
-              className="min-w-[30px] hover:text-[#456C2F] hidden lg:block font-montserrat text-center"
+              className="min-w-[30px] hover:text-[#456C2F] hidden lg:block font-montserrat font-bold text-center"
             >
               {item.title}
             </Link>
