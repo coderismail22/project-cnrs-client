@@ -1,9 +1,11 @@
+import JobCircular from "../JobCircular/JobCircular";
 import UpperCards from "../UpperCards/UpperCards";
 
 const JoinUs = () => {
   return (
     <div>
-      <UpperCards />
+      {/* <UpperCards /> */}
+      {/* <JobCircular /> */}
     </div>
   );
 };
