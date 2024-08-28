@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaImage } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const StoryCard = ({ story }) => {
   const {
@@ -12,9 +13,53 @@ const StoryCard = ({ story }) => {
     description,
     postUrl,
   } = story;
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: () => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+        
+      },
+    }),
+  };
   const [imgError, setImgError] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect(); // Stop observing once the card is visible
+        }
+      },
+      {
+        threshold: 0.2, // Trigger when 10% of the card is visible
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
   return (
-    <div className="w-full h-full mx-auto max-w-[400px] flex flex-col items-center justify-between p-5 bg-blue-50 ">
+    <motion.div
+      className="w-full h-full mx-auto max-w-[400px] flex flex-col items-center justify-between p-5 bg-blue-50 "
+      ref={ref}
+      variants={cardVariants}
+      initial="hidden"
+      animate={isVisible ? "visible" : "hidden"}
+    >
       <div className="uppercase bg-[#F7B500] hover:bg-[#B88E19] p-1 rounded-md text-[11px] md:text-[10px] text-center font-bold font-montserrat">
         <p>{highlightedBar}</p>
       </div>
@@ -55,7 +100,7 @@ const StoryCard = ({ story }) => {
       <div className="my-3 text-[#687279] text-sm w-full text-justify">
         <p>{description}</p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
