@@ -7,6 +7,7 @@ import OurServices from "../pages/OurServices/OurServices/OurServices";
 import Projects from "../pages/Projects/Projects/Projects";
 import Publications from "../pages/Publications/Publications/Publications";
 import Contact from "../pages/Contact/Contact/Contact";
+import JoinUs from "../pages/JoinUs/JoinUs/JoinUs";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/join-us",
+        element: <JoinUs />,
       },
     ],
   },

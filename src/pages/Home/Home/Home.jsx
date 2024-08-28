@@ -1,4 +1,4 @@
-import HeroSection from "../HeroSection/HeroSection";
+// import HeroSection from "../HeroSection/HeroSection";
 import HomeCards from "../HomeCards/HomeCards";
 import Documentaries from "../Documentaries/Documentaries";
 import Counter from "../../../components/Counter/Counter";
@@ -9,7 +9,7 @@ import ExecutiveDirector from "../ExecutiveDirector/ExecutiveDirector";
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <HomeCards />
       <Documentaries />
       <Counter />
