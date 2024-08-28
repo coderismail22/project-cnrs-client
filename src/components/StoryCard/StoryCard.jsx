@@ -29,7 +29,7 @@ const StoryCard = ({ story }) => {
         </h1>
       </Link>
       {/* Post Author and Date */}
-      <p className="text-[13px] uppercase mb-2">
+      <p className="text-[13px] uppercase my-2">
         By {author} / Published {postDate}
       </p>
       {/* Card Image */}
