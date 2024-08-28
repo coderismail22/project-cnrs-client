@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.path}
-              className="min-w-[30px] hover:text-[#456C2F] hidden lg:block font-montserrat"
+              className="min-w-[30px] hover:text-[#456C2F] hidden lg:block font-montserrat text-center"
             >
               {item.title}
             </Link>
@@ -82,7 +82,7 @@ const Navbar = () => {
             </h1>
 
             {navitems.map((item, index) => (
-              <Link key={index} to={item.path} className="font-bold">
+              <Link key={index} to={item.path} className="font-bold flex flex-col items-center justify-center">
                 {item.title}
               </Link>
             ))}
