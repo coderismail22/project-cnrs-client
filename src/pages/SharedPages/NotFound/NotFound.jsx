@@ -1,12 +1,8 @@
-import { useEffect } from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
   console.log("NotFound component is rendering");
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <div className="bg-blue-100 flex items-center p-5 overflow-hidden relative">
