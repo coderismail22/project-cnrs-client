@@ -5,8 +5,8 @@ import UpperCards from "../UpperCards/UpperCards";
 const JoinUs = () => {
   return (
     <div>
-      {/* <UpperCards /> */}
-      {/* <JobCircular /> */}
+      <UpperCards />
+      <JobCircular />
       <Coordinator />
     </div>
   );
