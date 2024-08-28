@@ -9,6 +9,7 @@ import Publications from "../pages/Publications/Publications/Publications";
 import Contact from "../pages/Contact/Contact/Contact";
 import JoinUs from "../pages/JoinUs/JoinUs/JoinUs";
 import Stories from "../pages/Stories/Stories/Stories";
+import NotFound from "../pages/SharedPages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "/join-us",
         element: <JoinUs />,
+      },
+      {
+        path: "*",
+        element: <NotFound />, // Render NotFound component within MainLayout
       },
     ],
   },
