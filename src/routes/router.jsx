@@ -4,12 +4,12 @@ import Home from "../pages/Home/Home/Home";
 import About from "../pages/About/About/About";
 import WhatWeDo from "../pages/WhatWeDo/WhatWeDo/WhatWeDo";
 import OurServices from "../pages/OurServices/OurServices/OurServices";
-import Projects from "../pages/Projects/Projects/Projects";
 import Publications from "../pages/Publications/Publications/Publications";
 import Contact from "../pages/Contact/Contact/Contact";
 import JoinUs from "../pages/JoinUs/JoinUs/JoinUs";
 import Stories from "../pages/Stories/Stories/Stories";
 import NotFound from "../pages/SharedPages/NotFound/NotFound";
+import Projects from "../pages/Projects/Projects/Projects";
 
 export const router = createBrowserRouter([
   {

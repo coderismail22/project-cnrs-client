@@ -2,8 +2,10 @@ import ContactCard from "../../../components/ContactCard/ContactCard";
 
 const ContactCards = () => {
   return (
-    <div>
-      <h1 className="font-yeseva font-bold text-3xl my-5 text-center">Find Us Here</h1>
+    <div className="py-10">
+      <h1 className="font-yeseva font-bold text-3xl my-5 text-center">
+        Find Us Here
+      </h1>
       <div className="grid md:grid-cols-2 gap-5  p-5 max-w-5xl">
         <ContactCard
           icon={"office"}

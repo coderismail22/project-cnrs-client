@@ -1,6 +1,6 @@
 const ServiceDetails = () => {
   return (
-    <div>
+    <div className="p-10">
       {/* 2.1 */}
       <div className="mb-[20px]">
         <h1 className="font-bold mb-[20px]">
