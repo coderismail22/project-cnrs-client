@@ -1,6 +1,6 @@
 const ExecutiveDirector = () => {
   return (
-    <div className="p-5 md:p-24 ">
+    <div className="p-5 md:p-24">
       <h1 className="font-redhat font-extrabold text-[50px] leading-tight text-center my-10 md:my-16">
         Words from our Climate expert and  <br /> Executive Director
       </h1>
