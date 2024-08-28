@@ -21,12 +21,17 @@ const Navbar = () => {
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
-    // Toggle overflow-hidden on the body element
     if (!isSidebarOpen) {
       document.body.classList.add("overflow-hidden");
     } else {
       document.body.classList.remove("overflow-hidden");
     }
+  };
+
+  const closeSidebarWithDelay = () => {
+    setTimeout(() => {
+      toggleSidebar();
+    }, 2000); // Adjust the delay time as needed (300ms is a good starting point)
   };
 
   return (
@@ -71,18 +76,20 @@ const Navbar = () => {
           onClick={toggleSidebar} // Close sidebar when background is clicked
         >
           <section
-            className="text-white bg-black/90 h-screen w-56 absolute left-0 top-0 flex flex-col gap-8 p-10"
+            className="overflow-scroll text-white bg-black/90 h-screen w-56 absolute left-0 top-0 flex flex-col items-center gap-8 py-16"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the sidebar
           >
-            <h1
-              onClick={toggleSidebar}
-              className="text-3xl cursor-pointer"
-            >
-              <TbLayoutSidebarLeftCollapse size="30" />
-            </h1>
+            <p className="text-center">
+              <TbLayoutSidebarLeftCollapse size="30" onClick={toggleSidebar} />
+            </p>
 
             {navitems.map((item, index) => (
-              <Link key={index} to={item.path} className="font-bold flex flex-col items-center justify-center">
+              <Link
+                key={index}
+                to={item.path}
+                className="font-bold flex flex-col items-center justify-center"
+                onClick={closeSidebarWithDelay} // Close sidebar with delay
+              >
                 {item.title}
               </Link>
             ))}

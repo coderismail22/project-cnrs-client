@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     // Hero Section
     <section
-      className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center text-white"
+      className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center text-white "
       style={{
         backgroundImage: "url('/assets/hero-img.jpg')", // Replace with your image path
       }}
