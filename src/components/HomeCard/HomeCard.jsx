@@ -7,7 +7,7 @@ const HomeCard = ({ card }) => {
         <img
           src={image}
           alt="birds"
-          className="w-[1000px] h-[500px] object-cover object-center"
+          className="w-[100%] h-[300px] object-cover object-center"
         />
       </div>
 

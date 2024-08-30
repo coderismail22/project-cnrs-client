@@ -2,7 +2,7 @@ import ContactCard from "../../../components/ContactCard/ContactCard";
 
 const ContactCards = () => {
   return (
-    <div className="py-10">
+    <div className="py-5">
       <h1 className="font-yeseva font-bold text-3xl my-5 text-center">
         Find Us Here
       </h1>

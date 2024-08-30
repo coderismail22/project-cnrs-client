@@ -10,9 +10,11 @@ const JoinUs = () => {
         pageName={"Join Us"}
         bgImage={"/assets/hero-img.jpg"}
       />
-      <UpperCards />
-      <JobCircular />
-      <Coordinator />
+      <div className="lg:w-9/12 mx-auto">
+        <UpperCards />
+        <JobCircular />
+        <Coordinator />
+      </div>
     </div>
   );
 };

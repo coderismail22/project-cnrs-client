@@ -8,7 +8,9 @@ const OurServices = () => {
         pageName={"Our Services"}
         bgImage={"/assets/hero-img.jpg"}
       />
-      <ServiceDetails />
+      <div className="md:w-9/12 mx-auto">
+        <ServiceDetails />
+      </div>
     </div>
   );
 };

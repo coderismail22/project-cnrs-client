@@ -1,7 +1,7 @@
 const Profile = () => {
   return (
     <div>
-      <div className="p-5">
+      <div className="md:p-5">
         {/* Title and Description */}
         <div className=" mb-5">
           <h1 className="font-palanquin text-[30px] font-bold text-center my-3">

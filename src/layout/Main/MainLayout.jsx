@@ -8,10 +8,12 @@ const MainLayout = () => {
   return (
     <div>
       <TopBanner />
-      <Navbar></Navbar>
+      <div className="">
+        <Navbar />
+      </div>
       <ScrollToTop />
-      <Outlet></Outlet>
-      <Footer></Footer>
+      <Outlet />
+      <Footer />
     </div>
   );
 };
